@@ -1,0 +1,67 @@
+
+
+* {
+  box-sizing: border-box;
+  &:active, &:hover, &:focus {
+    outline: 0;
+  }
+}
+
+html {
+  height: 100%;
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 400;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body, h1, h2, h3, h4, ul, ol, figure {
+  margin: 0;
+  padding: 0;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Exo+2');
+
+
+
+@media screen and (max-width :1125px) {
+  .contacts__item_time{
+    display: none;
+  }
+  .contacts__item {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+
+}
+
+
+@media screen and (max-width : 480px) {
+  .contacts__item_name {
+    display: none;
+  }
+  .contacts__item_status1 {
+    display: none;
+  }
+  .contacts__item_last-mesage {
+    display: none;
+  }
+  .contacts__item_time{
+    display: none;
+  }
+}
